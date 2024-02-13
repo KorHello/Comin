@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/design_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/design_default_color_background</item>
+        <item name="windowNoTitle">true</item><!--타이틀바 사라짐 -->
+
+    </style>
+
+    <style name="CustomTextView" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+
+
+    </style>
+
+</resources>
